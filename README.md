@@ -1,4 +1,4 @@
-## Assignment 5 - Huffman Coding
+## Huffman Coding
 
 Using Huffman coding, this program encodes input files into a compressed form, and decompresses those files using a decoder. The decoder only works on compressed files that were encoded by this program’s encoder and nothing else. 
 
