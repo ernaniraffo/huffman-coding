@@ -5,19 +5,20 @@ Using Huffman coding, this program encodes input files into a compressed form, a
 ## Building
 
 Running either of the following commands below builds the encoder and the decoder:
-
+```
 $ make
-
+```
+```
 $ make all
-
+```
 To only build the encoder, run this following command:
-
+```
 $ make encode
-
+```
 To only build the decoder, run this following command:
-
+```
 $ make decode
-
+```
 
 ## Running
 
@@ -25,12 +26,12 @@ The encoder and decoder both accept different types of command line options. Bel
 
 
 Running the encoder:
-
-./encode
-
+```
+$ ./encode 
+```
 
 Command line options:
-
+```
 -h              (display program and help usage)
 
 -v              (print compression statistics)
@@ -38,15 +39,15 @@ Command line options:
 -i infile       (specify the input file to compress)
 
 -o outfile	(specify the output of the compressed data)
-
+```
 
 Running the decoder:
-
-./decode
-
+```
+$ ./decode
+```
 
 Command line options:
-
+```
 -h              (display program and help usage)
 
 -v              (print compression statistics)
@@ -54,3 +55,4 @@ Command line options:
 -i infile       (specify the input file to decompress)
 
 -o outfile	(specify the output of the decompressed data)
+```
